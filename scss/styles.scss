@@ -1,0 +1,88 @@
+@import "normalize";
+@import "lightgallery";
+@import "lg-transitions";
+@import "uikit.min";
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
+
+// Styling for Thumbnails
+//This has been....
+
+// this gets rid of default styling from figure 
+
+figure {
+
+    margin: 60px;
+  
+    
+}
+
+.uk-card-default {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;  
+  
+}
+
+a {
+    margin: 10px;
+    
+
+
+}
+
+.A {
+    margin: 0px;
+    padding: 15px;
+    
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.uk-navbar-nav>li>a {
+    color: white;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    color: #696969;
+}
+
+
+//Styling for LightGallery______________________>
+.lg-backdrop {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.lg-outer .lg-thumb-item {
+    border: 2px solid #2d2d2d;
+}
+
+.lg-outer .lg-thumb-item.active {
+    border-color: white;
+}
+
+.lg-outer .lg-thumb-item:hover {
+    border-color: blueviolet;
+}
+
+
+// Keyframes for card hover state--------------------->
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
