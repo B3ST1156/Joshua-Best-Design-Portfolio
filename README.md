@@ -1,12 +1,6 @@
-# stand-alone-portfolio
-Stand Alone Portfolio
+# Joshua Best Design Portfolio 
+
+This page will house a collection of my work as a student/Designer...
 
 
-//html {
-    //background-image: url(/img/Rose_1.JPG);
-    
-    //height: 100%; 
-    //background-position: center;
-    //background-repeat: no-repeat;
-    //background-size: cover;
-}
+
